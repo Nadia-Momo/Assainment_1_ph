@@ -26,6 +26,7 @@ interface Cat {
   name: string;
   purrs: boolean;
 }
+![Cute Cat](https://example.com/path-to-cat.jpg)
 
 type Dog = {
   name: string;
