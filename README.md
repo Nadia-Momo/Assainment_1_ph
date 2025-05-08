@@ -20,18 +20,8 @@
 ---
 ### 😦 Example 💘
 
-interface Message {
-  id: string; 
-  role: 'user' | 'assistant' | 'system';
-  content: string;
-  timestamp: Date; 
-}
-type message={
- id: string;
-  role: 'user' | 'assistant' | 'system'; 
-  content: string; 
-  timestamp: Date; }
----
+<pre> ```typescript interface User { name: string; age: number; } const greet = (user: User): void => { console.log(`Hello, ${user.name}!`); }; ``` </pre>
+
 # 🐻🐤What is the use of the keyof keyword in Typescript?Provide an example.🐥🐼 Understanding `keyof` in TypeScript! 🐻✨
 
 Welcome to the adorable guide on the `keyof` keyword in TypeScript! 🐨💖
