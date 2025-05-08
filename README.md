@@ -20,11 +20,11 @@
 ---
 ### 😦 Example 💘
 
-<pre>  interface User { name: string; age: number; } 
+<pre>````  interface User { name: string; age: number; } 
       
-     type User={name: string; age: number;} </pre>
+     type User={name: string; age: number;} ````</pre>
 
-#2. 🐻🐤What is the use of the keyof keyword in Typescript?Provide an example.🐥🐼 Understanding `keyof` in TypeScript! 🐻✨
+# 🐻🐤2.What is the use of the keyof keyword in Typescript?Provide an example.🐥🐼 Understanding `keyof` in TypeScript! 🐻✨
 
 Welcome to the adorable guide on the `keyof` keyword in TypeScript! 🐨💖
 
