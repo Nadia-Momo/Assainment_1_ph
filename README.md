@@ -20,7 +20,9 @@
 ---
 ### 😦 Example 💘
 
-<pre> ```typescript interface User { name: string; age: number; } const greet = (user: User): void => { console.log(`Hello, ${user.name}!`); }; ``` </pre>
+<pre> ```typescript interface User { name: string; age: number; } \
+      
+     type User={name: string; age: number;}``` </pre>
 
 # 🐻🐤What is the use of the keyof keyword in Typescript?Provide an example.🐥🐼 Understanding `keyof` in TypeScript! 🐻✨
 
