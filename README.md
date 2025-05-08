@@ -33,5 +33,4 @@ type Dog = {
   barks: boolean;
 } | { sleeps: boolean }; // a sleepy dog!
 
-
  
