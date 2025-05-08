@@ -1,4 +1,4 @@
-# What are some differences between interfaces and types in typescript?
+# 1.🐻🐤What are some differences between interfaces and types in typescript?🐥🐼
 
       `Interface` 🆚`Type`
 
@@ -24,7 +24,7 @@
       
      type User={name: string; age: number;} </pre>
 
-# 🐻🐤What is the use of the keyof keyword in Typescript?Provide an example.🐥🐼 Understanding `keyof` in TypeScript! 🐻✨
+#2. 🐻🐤What is the use of the keyof keyword in Typescript?Provide an example.🐥🐼 Understanding `keyof` in TypeScript! 🐻✨
 
 Welcome to the adorable guide on the `keyof` keyword in TypeScript! 🐨💖
 
