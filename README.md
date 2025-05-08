@@ -1,6 +1,6 @@
 ## what are some differences between interfaces and types in typescript?
 
-      !`interface` 🆚`type`!
+      `Interface` 🆚`Type`
 
 | Feature | `interface` | `type` |
 |--------|-------------|--------|
