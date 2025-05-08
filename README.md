@@ -20,7 +20,7 @@
 ---
 ### 😦 Example 💘
 
-<pre> ```typescript interface User { name: string; age: number; } \
+<pre> ``` interface User { name: string; age: number; } 
       
      type User={name: string; age: number;}``` </pre>
 
