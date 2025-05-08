@@ -34,10 +34,10 @@ Welcome to the adorable guide on the `keyof` keyword in TypeScript! 🐨💖
 
 ---
 ## 🐶 Summary
--🐻keyof creates a union of object keys.
--🐻Helps you write safer and more flexible TypeScript code.
--🐻Perfect for functions that work with object properties! 🎈
--🐻Access object properties
+🐻keyof creates a union of object keys.
+🐻Helps you write safer and more flexible TypeScript code.
+🐻Perfect for functions that work with object properties! 🎈
+>🐻Access object properties
 -🐻Build reusable ggeneric functions
 -🐻Avoid hardcoded property names
 -💥Pookie's tip: Use keyof to prevent typos! 
