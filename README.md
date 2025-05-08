@@ -1,6 +1,6 @@
-## 🆚 Interfaces vs Types in TypeScript
+## what are some differences between interfaces and types in typescript?
 
-Comparisons between `interface` and`type` are given below:!
+      !`interface` 🆚`type`!
 
 | Feature | `interface` | `type` |
 |--------|-------------|--------|
