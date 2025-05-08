@@ -18,7 +18,20 @@
 - Use **`type`** for more complex structures (e.g., unions, primitives, tuples).
 
 ---
+### 😦 Example 💘
 
+interface Message {
+  id: string; 
+  role: 'user' | 'assistant' | 'system';
+  content: string;
+  timestamp: Date; 
+}
+type message={
+ id: string;
+  role: 'user' | 'assistant' | 'system'; 
+  content: string; 
+  timestamp: Date; }
+---
 # 🐻🐤What is the use of the keyof keyword in Typescript?Provide an example.🐥🐼 Understanding `keyof` in TypeScript! 🐻✨
 
 Welcome to the adorable guide on the `keyof` keyword in TypeScript! 🐨💖
