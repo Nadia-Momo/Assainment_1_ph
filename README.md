@@ -33,7 +33,13 @@ Welcome to the adorable guide on the `keyof` keyword in TypeScript! 🐨💖
 *Imagine a cute pookie saying: "Show me the keys!"* 🐶
 
 ---
+## 🐶 Summary
+🐻keyof creates a union of object keys.
+🐻Helps you write safer and more flexible TypeScript code.
+🐻Perfect for functions that work with object properties! 🎈
+💥Pookie's tip: Use keyof to prevent typos! 🐻
 
+Happy coding with adorable pookies! 🐼💕
 ## Example Usage 🎉
 
 ```typescript
@@ -47,7 +53,7 @@ function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
   return obj[key];
 }
 
-const person: Person = { name: "Alice", age: 30, location: "Wonderland" };
+const person: Person = { name: "Nadia", age: 30, location: "SwitzerLand" };
 
 const name = getProperty(person, "name"); // string
 const age = getProperty(person, "age");   // number
