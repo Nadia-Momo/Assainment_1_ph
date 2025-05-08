@@ -1,6 +1,6 @@
 ## 🆚 Interfaces vs Types in TypeScript
 
-Here's a quick comparison to help you decide when to use `interface` or `type`!
+Comparisons between `interface` and`type` are given below:!
 
 | Feature | `interface` | `type` |
 |--------|-------------|--------|
