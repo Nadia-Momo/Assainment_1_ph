@@ -1,4 +1,4 @@
-## What are some differences between interfaces and types in typescript?
+# What are some differences between interfaces and types in typescript?
 
       `Interface` 🆚`Type`
 
@@ -18,7 +18,7 @@
 - Use **`type`** for more complex structures (e.g., unions, primitives, tuples).
 
 ---
-
+#🐻🐤What is the use of the keyof keyword in Typescript?Provide an example.🐥🐼
 # Understanding `keyof` in TypeScript! 🐻✨
 
 Welcome to the adorable guide on the `keyof` keyword in TypeScript! 🐨💖
@@ -34,11 +34,15 @@ Welcome to the adorable guide on the `keyof` keyword in TypeScript! 🐨💖
 
 ---
 ## 🐶 Summary
-🐻keyof creates a union of object keys.
-🐻Helps you write safer and more flexible TypeScript code.
-🐻Perfect for functions that work with object properties! 🎈
-💥Pookie's tip: Use keyof to prevent typos! 🐻
+-🐻keyof creates a union of object keys.
+-🐻Helps you write safer and more flexible TypeScript code.
+-🐻Perfect for functions that work with object properties! 🎈
+-🐻Access object properties
+-🐻Build reusable ggeneric functions
+-🐻Avoid hardcoded property names
+-💥Pookie's tip: Use keyof to prevent typos! 
 
+![Unlocking Keys](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
 Happy coding with adorable pookies! 🐼💕
 ## Example Usage 🎉
 
@@ -53,7 +57,7 @@ function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
   return obj[key];
 }
 
-const person: Person = { name: "Nadia", age: 30, location: "SwitzerLand" };
+const person: Person = { name: "Nadia", age: 30, location: "Switzerland" };
 
 const name = getProperty(person, "name"); // string
 const age = getProperty(person, "age");   // number
